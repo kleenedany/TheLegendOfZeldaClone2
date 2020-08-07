@@ -1,0 +1,55 @@
+[{
+    "maptile1": {
+        "mapObjects": [
+            {"objectname": "Enemy", "positionX": 0, "positionY": 0.7},
+            {"objectname": "Enemy", "positionX": 0, "positionY": -0.7},
+            {"objectname": "Enemy", "positionX": 1, "positionY": 0},
+
+            {"objectname": "Endboss", "positionX": 1.75, "positionY": -0.25},
+
+            {"objectname": "Object", "positionX": -1.5, "positionY": 0.7, "type": "House"},
+            {"objectname": "Object", "positionX": 1.6, "positionY": 0.8, "type": "Tree"},
+            {"objectname": "Object", "positionX": 1.6, "positionY": -1.4, "type": "Tree"},
+            {"objectname": "Object", "positionX": -1.5, "positionY": -1, "type": "Fountain"},
+
+            {"objectname": "Floor", "positionX": -1.5, "positionY": 0.5, "type": "FloorPath"},
+            {"objectname": "Floor", "positionX": -1.5, "positionY": 0.2, "type": "FloorPath"},
+            {"objectname": "Floor", "positionX": -1.5, "positionY": -0.1, "type": "FloorPath"},
+            {"objectname": "Floor", "positionX": -1.5, "positionY": -0.4, "type": "FloorPath"},
+
+            {"objectname": "Object", "positionX": -2.15, "positionY": 1.5, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": -1.62, "positionY": 1.5, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": -1.05, "positionY": 1.5, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": -0.50, "positionY": 1.5, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": 0, "positionY": 1.5, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": 0.50, "positionY": 1.5, "type": "ObjectHedgeVertical"}, 
+            {"objectname": "Object", "positionX": 1.03, "positionY": 1.5, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": 1.60, "positionY": 1.5, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": 2.15, "positionY": 1.5, "type": "ObjectHedgeVertical"},
+          
+            {"objectname": "Object", "positionX": -2.15, "positionY": -1.7, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": -1.62, "positionY": -1.7, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": -1.05, "positionY": -1.7, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": -0.50, "positionY": -1.7, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": 0, "positionY": -1.7, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": 0.50, "positionY": -1.7, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": 1.03, "positionY": -1.7, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": 1.60, "positionY": -1.7, "type": "ObjectHedgeVertical"},
+            {"objectname": "Object", "positionX": 2.15, "positionY": -1.7, "type": "ObjectHedgeVertical"},
+            
+            {"objectname": "Object", "positionX": -2.25, "positionY": 1, "type": "ObjectHedgeHorizontal"},
+            {"objectname": "Object", "positionX": -2.25, "positionY": 0.5, "type": "ObjectHedgeHorizontal"},
+            {"objectname": "Object", "positionX": -2.25, "positionY": 0, "type": "ObjectHedgeHorizontal"},
+            {"objectname": "Object", "positionX": -2.25, "positionY": -0.5, "type": "ObjectHedgeHorizontal"},
+            {"objectname": "Object", "positionX": -2.25, "positionY": -1, "type": "ObjectHedgeHorizontal"},
+            {"objectname": "Object", "positionX": -2.25, "positionY": -1.5, "type": "ObjectHedgeHorizontal"},
+
+            {"objectname": "Object", "positionX": 2.25, "positionY": 1, "type": "ObjectHedgeHorizontal"},
+            {"objectname": "Object", "positionX": 2.25, "positionY": 0.5, "type": "ObjectHedgeHorizontal"},
+            {"objectname": "Object", "positionX": 2.25, "positionY": 0, "type": "ObjectHedgeHorizontal"},
+            {"objectname": "Object", "positionX": 2.25, "positionY": -0.5, "type": "ObjectHedgeHorizontal"},
+            {"objectname": "Object", "positionX": 2.25, "positionY": -1, "type": "ObjectHedgeHorizontal"},
+            {"objectname": "Object", "positionX": 2.25, "positionY": -1.5, "type": "ObjectHedgeHorizontal"}
+        ]
+    }
+}]

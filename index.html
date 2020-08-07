@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <title>The Legend of Zelda</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="FudgeCore.js"></script>
+    <script src="FudgeAid.js"></script>
+    <script src="gameInfo.json"></script>
+    <script src="Main.js"></script>
+    <script src="Player.js"></script>
+    <script src="Arrow.js"></script>
+    <script src="Enemy.js"></script>
+    <script src="Shoot.js"></script>
+    <script src="Floor.js"></script>
+    <script src="MapObjects.js"></script>
+    <script src="Endboss.js"></script>
+    <script src="LifePoints.js"></script>
+
+</head>
+<body>
+        <div id="titleScreen">
+            <h1> The Legend of Zelda </h1>
+            <div class="btn_text">
+                <button id="btn_startGame"> 
+                    Start Game
+                </button>
+            </div>
+
+            <div style="margin-bottom: 5vh;">
+                <button class="btn_showControls"> 
+                    Controls
+                </button>
+            </div>
+
+            <div>
+                <button class="btn_showSettings">
+                    Settings
+                </button>
+            </div>
+
+
+        </div>
+
+        <div id="gameScreen">
+            <center>
+                <canvas width="800vw" height="600vh"></canvas>
+            </center>
+           
+            <img src="images/SpriteLink.png" style="display: none;" id ="img_player">
+            <img src="images/arrow.png" style="display: none;" id="img_arrow">
+            <img src="images/SpriteEnemy.png" style="display: none;" id="img_enemy">
+            <img src="images/pellet.png" style="display: none;" id="img_pellet">
+            <img src="images/SpriteFloor.png" style="display: none;" id="img_floor">
+            <img src="images/SpriteMapObjects.png" style="display: none;" id="img_objects">
+            <img src="images/SpriteEndBoss.png" style="display: none;" id="img_endboss">
+            <img src="images/SpriteHeart.png" style="display: none;" id="img_heart">
+        </div>
+
+        <div id="controlsScreen">
+            <h1> Controls </h1>
+
+            <div>
+                Move North: W <br />
+                Move West: A <br />
+                Move South: S <br />
+                Move North: D <br />
+                Attack: E 
+            </div>
+
+            <div style="margin-top: 5vh;">
+                <button class="btn_backToTitleScreen">
+                    Back
+                </button>
+            </div>
+
+            <div style="margin-top: 5vh;">
+                <button class="btn_showSettings">
+                    Settings
+                </button>
+            </div>
+
+        </div>
+
+        <div id="settingsScreen">
+            <h1> Settings </h1>
+
+            <div>
+                <h2> Music </h2>
+                <input type="range" min="0" max="100" step="1.0" value="5" id="rangeMusic">
+            </div>
+
+            <div>
+                <h2> Sound Effects </h2>
+                <input type="range" min="0" max="100" step="1.0" value="7" id="rangeSoundEffects">
+            </div>
+
+            <div style="margin-top: 5vh;">
+                <button class="btn_backToTitleScreen">
+                    Back
+                </button>
+            </div>
+
+            <div style="margin-top: 5vh;">
+                <button class="btn_showControls"> 
+                    Controls
+                </button>
+            </div>
+
+        </div>
+      
+        <div id="gameOverScreen">
+            <h1> Game Over</h1>
+
+            <div style="margin-top: 5vh;">
+                <button class="btn_restartGame"> 
+                    Play again!
+                </button>
+            </div>
+
+            <div style="margin-top: 5vh;">
+                <button class="btn_backToTitleScreen"> 
+                    Title Screen
+                </button>
+            </div>
+        </div>
+
+        <div id="gameWonScreen">
+            <h1> Congrats! You won the Game! </h1>
+
+            <div style="margin-top: 5vh;">
+                <button class="btn_restartGame"> 
+                    Play again!
+                </button>
+            </div>
+
+            <div style="margin-top: 5vh;">
+                <button class="btn_backToTitleScreen"> 
+                    Title Screen
+                </button>
+            </div>
+        </div>
+         
+</html>
